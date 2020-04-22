@@ -15,4 +15,8 @@ export class Exercice3Component implements OnInit {
     this.status = true;
   }
 
+  public changeStatus(): void {
+    this.status = !this.status;
+  }
+
 }
