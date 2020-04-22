@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projet2';
+
+  public clickComponent2(): void {
+    console.log('clic');
+  }
 }
